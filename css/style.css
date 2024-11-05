@@ -1,0 +1,1904 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.Cryptous {
+  background-color: rgb(27, 0, 78);
+  width: 100%;
+  height: 800px;
+  margin: auto;
+  background-image: url(/image/bg\ \(1\).png);
+  background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.Cryptous header {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.Cryptous header i {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  display: none;
+}
+.Cryptous header .foto {
+  display: flex;
+  align-items: center;
+}
+.Cryptous header .foto img {
+  width: 36px;
+  height: 41px;
+}
+.Cryptous header .foto h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: Poppins;
+  color: rgb(255, 255, 255);
+}
+.Cryptous header ul {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.Cryptous header ul li {
+  padding-top: 20px;
+}
+.Cryptous header ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Poppins;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.Cryptous header .Trade button {
+  width: 157.24px;
+  border: solid 2px rgb(235, 87, 87);
+  padding: 15px 30px 15px 30px;
+  border-radius: 50px;
+  background-color: rgb(78, 0, 98);
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Cryptous main {
+  width: 100;
+  position: absolute;
+  top: 15%;
+}
+.Cryptous nav {
+  width: 85%;
+  height: 400px;
+  margin: auto;
+  margin-top: 8%;
+}
+.Cryptous nav .Make {
+  display: flex;
+  justify-content: space-between;
+}
+.Cryptous nav .Make .better {
+  width: 50%;
+  height: 400px;
+}
+.Cryptous nav .Make .better h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Poppins;
+  line-height: 90px;
+  color: rgb(255, 255, 255);
+}
+.Cryptous nav .Make .better .spn {
+  width: 70%;
+  margin-top: 3%;
+}
+.Cryptous nav .Make .better .spn span {
+  margin-top: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+.Cryptous nav .Make .better .btn {
+  width: 200px;
+  margin-top: 5%;
+}
+.Cryptous nav .Make .better .btn button {
+  width: 197.59px;
+  height: 48.3px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(235, 87, 87);
+  font-size: 17px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 17px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.Cryptous nav .Make .Fotto {
+  width: 50%;
+  height: 400px;
+}
+.Cryptous nav .Make .Fotto .frame {
+  width: 100%;
+  height: 300px;
+  margin-top: 15%;
+  background-image: url(/image/Frame.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.Cryptous nav .Make .Fotto .frame img {
+  position: absolute;
+  left: 25%;
+  bottom: 15%;
+}
+.Cryptous .scrool {
+  width: 30px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+@media (width < 768px) {
+  .Cryptous {
+    height: 600px;
+    background: rgb(27, 0, 78);
+  }
+  .Cryptous .scrool {
+    display: none;
+  }
+  .Cryptous main {
+    display: none;
+  }
+  .Cryptous header {
+    display: flex;
+    align-items: center;
+  }
+  .Cryptous header ul {
+    display: none;
+  }
+  .Cryptous header .Trade {
+    display: none;
+  }
+  .Cryptous header i {
+    display: block;
+  }
+  .Cryptous nav .Make .better {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+  }
+  .Cryptous nav .Make .better h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+  }
+  .Cryptous nav .Make .better .spn {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .Cryptous nav .Make .better .spn span {
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .Cryptous nav .Make .better .btn {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .Cryptous nav .Make .better .btn button {
+    width: 197.59px;
+    height: 48.3px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(235, 87, 87);
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 17px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+  .Cryptous nav .Make .Fotto {
+    width: 50%;
+    height: 400px;
+    display: none;
+  }
+  .Cryptous nav .Make .Fotto .frame {
+    width: 100%;
+    height: 300px;
+    margin-top: 15%;
+    background-image: url(/image/Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .Cryptous nav .Make .Fotto .frame img {
+    position: absolute;
+    left: 25%;
+    bottom: 15%;
+  }
+}
+@media (width < 461px) {
+  .Cryptous {
+    height: 600px;
+    background: rgb(27, 0, 78);
+  }
+  .Cryptous .scrool {
+    display: none;
+  }
+  .Cryptous main {
+    display: none;
+  }
+  .Cryptous header {
+    display: flex;
+    align-items: center;
+  }
+  .Cryptous header ul {
+    display: none;
+  }
+  .Cryptous header .Trade {
+    display: none;
+  }
+  .Cryptous header i {
+    display: block;
+  }
+  .Cryptous nav .Make .better {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+  }
+  .Cryptous nav .Make .better h1 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+  }
+  .Cryptous nav .Make .better .spn {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .Cryptous nav .Make .better .spn span {
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .Cryptous nav .Make .better .btn {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .Cryptous nav .Make .better .btn button {
+    width: 197.59px;
+    height: 48.3px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(235, 87, 87);
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 17px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+  .Cryptous nav .Make .Fotto {
+    width: 50%;
+    height: 400px;
+    display: none;
+  }
+  .Cryptous nav .Make .Fotto .frame {
+    width: 100%;
+    height: 300px;
+    margin-top: 15%;
+    background-image: url(/image/Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .Cryptous nav .Make .Fotto .frame img {
+    position: absolute;
+    left: 25%;
+    bottom: 15%;
+  }
+}
+.most {
+  width: 100%;
+  height: 450px;
+}
+.most .trusted {
+  font-size: 32px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(23, 23, 23);
+  width: 50%;
+  margin: auto;
+  margin-top: 6%;
+}
+.most .trading {
+  width: 85%;
+  padding-top: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.most .trading .ease {
+  width: 27%;
+  height: 220px;
+  margin-top: 10px;
+}
+.most .trading .ease .of {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 14px;
+  color: rgb(0, 0, 0);
+}
+.most .trading .ease p {
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Inter;
+  line-height: 17px;
+  color: rgb(0, 0, 0);
+}
+.most .trading .ease img {
+  margin-left: 5px;
+  width: 60px;
+  height: 65px;
+}
+
+@media (width < 768px) {
+  .most {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 246, 251);
+  }
+  .most .trusted {
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(23, 23, 23);
+    width: 50%;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+  }
+  .most .trading {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .most .trading .ease {
+    width: 100%;
+    height: 280px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .most .trading .ease .of {
+    margin-top: 14px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Inter;
+    line-height: 14px;
+    color: rgb(0, 0, 0);
+  }
+  .most .trading .ease p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter;
+    line-height: 14px;
+    color: rgb(0, 0, 0);
+  }
+  .most .trading .ease img {
+    margin-left: 5px;
+    width: 60px;
+    height: 65px;
+  }
+}
+.fature {
+  width: 100%;
+  background-color: rgb(27, 0, 78);
+}
+.fature .moto {
+  width: 24%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.fature .moto img {
+  width: 168px;
+  height: 55px;
+  display: none;
+}
+.fature .dowland {
+  width: 85%;
+  height: 650px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.fature .dowland .iphone {
+  position: relative;
+  width: 40%;
+}
+.fature .dowland .iphone .heysiz {
+  position: absolute;
+  left: 67%;
+  top: 17%;
+}
+.fature .dowland .iphone img {
+  position: absolute;
+  top: 15%;
+}
+.fature .dowland .cyrop {
+  width: 40%;
+  margin-top: 13%;
+}
+.fature .dowland .cyrop .foto {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.fature .dowland .cyrop .foto img {
+  width: 168px;
+  height: 55px;
+}
+.fature .dowland .cyrop span {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.fature .dowland .cyrop p {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+}
+
+@media (width < 1096px) {
+  .fature {
+    width: 100%;
+    background-color: rgb(27, 0, 78);
+  }
+  .fature .dowland {
+    width: 85%;
+    height: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fature .dowland .iphone {
+    position: relative;
+    width: 40%;
+  }
+  .fature .dowland .iphone .heysiz {
+    position: absolute;
+    left: 67%;
+    top: 17%;
+    display: none;
+  }
+  .fature .dowland .iphone img {
+    position: absolute;
+    top: 15%;
+    width: 300px;
+    height: 350px;
+  }
+  .fature .dowland .cyrop {
+    width: 40%;
+    margin-top: 13%;
+  }
+  .fature .dowland .cyrop .foto {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  .fature .dowland .cyrop .foto img {
+    width: 168px;
+    height: 55px;
+  }
+  .fature .dowland .cyrop span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+  }
+  .fature .dowland .cyrop p {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 4px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media (width < 768px) {
+  .fature {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(27, 0, 78);
+  }
+  .fature .moto {
+    width: 47%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  .fature .moto img {
+    width: 168px;
+    height: 55px;
+    display: block;
+    margin-top: 50%;
+  }
+  .fature .dowland {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+  }
+  .fature .dowland .iphone {
+    width: 68%;
+    height: 700px;
+  }
+  .fature .dowland .iphone .heysiz {
+    text-align: center;
+    position: absolute;
+    left: 67%;
+    top: 17%;
+  }
+  .fature .dowland .cyrop {
+    width: 46%;
+    margin-left: 27%;
+  }
+  .fature .dowland .cyrop .foto {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  .fature .dowland .cyrop .foto img {
+    width: 168px;
+    height: 55px;
+    display: none;
+  }
+  .fature .dowland .cyrop span {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+  }
+  .fature .dowland .cyrop p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    margin: auto;
+  }
+}
+.learn {
+  width: 100%;
+  border: solid rgb(255, 246, 251) 1px;
+  background-color: rgb(255, 246, 251);
+}
+.learn .too {
+  width: 25%;
+  margin: auto;
+  padding: 30px;
+  margin-top: 50px;
+}
+.learn .too p {
+  font-size: 32px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 32px;
+  color: rgb(0, 0, 0);
+}
+.learn .foto {
+  width: 85%;
+  background-color: rgb(255, 246, 251);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 500px;
+}
+.learn .foto .new {
+  background-color: rgba(203, 203, 203, 0.25);
+  width: 28%;
+  height: 409px;
+  border-radius: 10px;
+}
+.learn .foto .new p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  margin: 15px;
+}
+.learn .foto .new .jeko {
+  width: 93%;
+  margin: auto;
+}
+.learn .foto .new .by {
+  width: 93%;
+  margin: auto;
+  padding-top: 10px;
+}
+.learn .foto .new .by ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.learn .foto .new .by ul li a {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: rgb(97, 97, 97);
+  font-family: Popins;
+  text-decoration: none;
+}
+.learn .foto .new .by ul li img {
+  width: 10px;
+  height: 10px;
+}
+.learn .foto .new span {
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgb(79, 79, 79);
+}
+.learn .foto .new img {
+  width: 100%;
+}
+
+@media (width < 999px) {
+  .learn {
+    width: 100%;
+    height: 1460px;
+    border: solid rgb(255, 246, 251) 1px;
+    background-color: rgb(255, 246, 251);
+  }
+  .learn .too {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  .learn .too p {
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+  }
+  .learn .foto {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 246, 251);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 500px;
+  }
+  .learn .foto .new {
+    background-color: rgba(203, 203, 203, 0.25);
+    width: 28%;
+    height: 409px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .learn .foto .new p {
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+  }
+  .learn .foto .new .jeko {
+    width: 89%;
+    margin: auto;
+  }
+  .learn .foto .new .by {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .learn .foto .new .by ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .learn .foto .new .by ul li a {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10px;
+    color: rgb(97, 97, 97);
+    font-family: Popins;
+    text-decoration: none;
+  }
+  .learn .foto .new .by ul li img {
+    width: 10px;
+    height: 10px;
+  }
+  .learn .foto .new span {
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(79, 79, 79);
+  }
+  .learn .foto .new img {
+    width: 100%;
+  }
+}
+@media (width < 768px) {
+  .learn {
+    width: 100%;
+    border: solid rgb(255, 246, 251) 1px;
+    background-color: rgb(255, 246, 251);
+  }
+  .learn .too {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  .learn .too p {
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+  }
+  .learn .foto {
+    width: 100%;
+    background-color: rgb(255, 246, 251);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 500px;
+  }
+  .learn .foto .new {
+    background-color: rgba(203, 203, 203, 0.25);
+    width: 50%;
+    height: 409px;
+    border-radius: 10px;
+  }
+  .learn .foto .new p {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+  }
+  .learn .foto .new .jeko {
+    width: 93%;
+    margin: auto;
+  }
+  .learn .foto .new .by {
+    width: 93%;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .learn .foto .new .by ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .learn .foto .new .by ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: rgb(97, 97, 97);
+    font-family: Popins;
+    text-decoration: none;
+  }
+  .learn .foto .new .by ul li img {
+    width: 10px;
+    height: 10px;
+  }
+  .learn .foto .new span {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(79, 79, 79);
+  }
+  .learn .foto .new img {
+    width: 100%;
+  }
+}
+@media (width < 461px) {
+  .learn {
+    width: 100%;
+    border: solid rgb(255, 246, 251) 1px;
+    background-color: rgb(255, 246, 251);
+  }
+  .learn .too {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  .learn .too p {
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+  }
+  .learn .foto {
+    width: 100%;
+    background-color: rgb(255, 246, 251);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .learn .foto .new {
+    background-color: rgba(203, 203, 203, 0.25);
+    width: 70%;
+    height: 700px;
+    border-radius: 10px;
+  }
+  .learn .foto .new p {
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+  }
+  .learn .foto .new .jeko {
+    width: 89%;
+    margin: auto;
+  }
+  .learn .foto .new .by {
+    width: 93%;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .learn .foto .new .by ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .learn .foto .new .by ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: rgb(97, 97, 97);
+    font-family: Popins;
+    text-decoration: none;
+  }
+  .learn .foto .new .by ul li img {
+    width: 10px;
+    height: 10px;
+  }
+  .learn .foto .new span {
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(79, 79, 79);
+  }
+  .learn .foto .new img {
+    width: 100%;
+  }
+}
+.never {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(27, 0, 78);
+}
+.never .miss {
+  width: 100%;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.never .miss .drop {
+  width: 40%;
+  padding-top: 25px;
+}
+.never .miss .drop p {
+  font-size: 50px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.never .miss .drop span {
+  margin-left: 25px;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+.never .miss .drop .enter {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  height: 80px;
+  border: solid rgb(255, 255, 255) 2px;
+  border-end-end-radius: 37px;
+  border-top-left-radius: 37px;
+  border-bottom-left-radius: 37px;
+  border-top-right-radius: 37px;
+}
+.never .miss .drop .enter .collec {
+  width: 99.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.never .miss .drop .enter .collec span {
+  font-size: Inter;
+  font-size: 15px;
+  line-height: 18.15px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.never .miss .drop .enter .collec button {
+  width: 170px;
+  height: 72px;
+  background-color: rgb(235, 87, 87);
+  border-radius: 31px;
+  border: none;
+  margin-top: 2px;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+@media (width < 1481px) {
+  .never {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(27, 0, 78);
+  }
+  .never .miss {
+    width: 50%;
+    margin: auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .never .miss .juk {
+    border: solid red 1px;
+    display: none;
+  }
+  .never .miss .drop {
+    width: 100%;
+    padding-top: 25px;
+  }
+  .never .miss .drop p {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .never .miss .drop span {
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .never .miss .drop .enter {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    height: 80px;
+    border: solid rgb(255, 255, 255) 2px;
+    border-end-end-radius: 37px;
+    border-top-left-radius: 37px;
+    border-bottom-left-radius: 37px;
+    border-top-right-radius: 37px;
+  }
+  .never .miss .drop .enter .collec {
+    width: 99.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .never .miss .drop .enter .collec span {
+    font-size: Inter;
+    font-size: 15px;
+    line-height: 18.15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  .never .miss .drop .enter .collec button {
+    width: 170px;
+    height: 72px;
+    background-color: rgb(235, 87, 87);
+    border-radius: 31px;
+    border: none;
+    margin-top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+@media (width < 768px) {
+  .never {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(27, 0, 78);
+  }
+  .never .miss {
+    width: 50%;
+    margin: auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .never .miss .juk {
+    border: solid red 1px;
+    display: none;
+  }
+  .never .miss .drop {
+    width: 100%;
+    padding-top: 25px;
+  }
+  .never .miss .drop p {
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .never .miss .drop span {
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .never .miss .drop .enter {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    height: 80px;
+    border: solid rgb(255, 255, 255) 2px;
+    border-end-end-radius: 37px;
+    border-top-left-radius: 37px;
+    border-bottom-left-radius: 37px;
+    border-top-right-radius: 37px;
+  }
+  .never .miss .drop .enter .collec {
+    width: 99.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .never .miss .drop .enter .collec span {
+    font-size: Inter;
+    font-size: 15px;
+    line-height: 18.15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  .never .miss .drop .enter .collec button {
+    width: 170px;
+    height: 72px;
+    background-color: rgb(235, 87, 87);
+    border-radius: 31px;
+    border: none;
+    margin-top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+@media (width < 461px) {
+  .never {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(27, 0, 78);
+  }
+  .never .miss {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .never .miss .juk {
+    display: none;
+  }
+  .never .miss .drop {
+    width: 100%;
+    padding-top: 25px;
+  }
+  .never .miss .drop p {
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .never .miss .drop span {
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .never .miss .drop .enter {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    height: 80px;
+    border: solid rgb(255, 255, 255) 2px;
+    border-end-end-radius: 37px;
+    border-top-left-radius: 37px;
+    border-bottom-left-radius: 37px;
+    border-top-right-radius: 37px;
+  }
+  .never .miss .drop .enter .collec {
+    width: 99.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .never .miss .drop .enter .collec span {
+    font-size: Inter;
+    font-size: 15px;
+    line-height: 18.15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  .never .miss .drop .enter .collec button {
+    width: 170px;
+    height: 72px;
+    background-color: rgb(235, 87, 87);
+    border-radius: 31px;
+    border: none;
+    margin-top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+@media (width < 768px) {
+  .Company {
+    background-image: url(/image/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border: solid 1px;
+    background-color: rgba(78, 0, 98, 0.871);
+  }
+  .Company .hyyge {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    border-bottom: 1px rgb(188, 188, 188) solid;
+  }
+  .Company .hyyge table {
+    width: 100%;
+    height: 220px;
+    margin-top: 100px;
+    display: flex;
+    justify-items: center;
+  }
+  .Company .hyyge table tbody tr td {
+    color: rgb(230, 230, 230);
+    font-size: 17px;
+    font-family: Inter;
+    line-height: 23.88px;
+    font-weight: 400;
+  }
+  .Company .hyyge table thead tr th {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 21.78px;
+    font-weight: 600;
+  }
+  .Company .Copyrigh {
+    width: 85%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+  }
+  .Company .Copyrigh span {
+    color: rgb(188, 188, 188);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+  }
+}
+.today {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(27, 0, 78);
+}
+.today .price {
+  width: 85%;
+  margin: auto;
+  padding: 50px;
+  background-color: rgb(27, 0, 78);
+}
+.today .price p {
+  font-size: 32px;
+  font-family: Poppins;
+  line-height: 48px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin-left: 30%;
+}
+.today .Cryptocurrency {
+  width: 85%;
+  margin: auto;
+  background-color: rgb(27, 0, 78);
+}
+.today .Cryptocurrency table {
+  width: 100%;
+}
+.today .Cryptocurrency table thead tr {
+  border-bottom: 1px solid grey;
+}
+.today .Cryptocurrency table thead tr .last {
+  display: flex;
+  justify-content: center;
+}
+.today .Cryptocurrency table thead tr .fer i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.today .Cryptocurrency table thead tr .fer span {
+  margin-left: 30px;
+}
+.today .Cryptocurrency table thead tr th {
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(27, 0, 78);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+}
+.today .Cryptocurrency tbody tr {
+  border-bottom: 1px solid grey;
+}
+.today .Cryptocurrency tbody tr .nu {
+  color: red;
+}
+.today .Cryptocurrency tbody tr .yu {
+  font-size: 13px;
+  color: rgb(26, 255, 124);
+  font-family: Inter;
+}
+.today .Cryptocurrency tbody tr .tu {
+  font-size: 14px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+}
+.today .Cryptocurrency tbody tr .tu span {
+  margin-left: 35%;
+  color: rgb(130, 130, 130);
+  font-size: 11px;
+  font-family: Inter;
+}
+.today .Cryptocurrency tbody tr .mu {
+  font-size: 14px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 30px;
+  position: absolute;
+}
+.today .Cryptocurrency tbody tr .mu span {
+  margin-left: 35%;
+  color: rgb(130, 130, 130);
+  font-size: 11px;
+  font-family: Inter;
+}
+.today .Cryptocurrency tbody tr .bitcoin .BTC {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  font-family: Open Sans;
+  color: rgb(130, 130, 130);
+}
+.today .Cryptocurrency tbody tr .bitcoin span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 5px;
+}
+.today .Cryptocurrency tbody tr td {
+  padding: 20px;
+  color: #fff;
+  background-color: rgb(27, 0, 78);
+}
+.today .Cryptocurrency tbody tr td .sekil {
+  margin-left: 40px;
+  width: 80%;
+}
+
+@media (width < 1031px) {
+  .today {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .price {
+    width: 85%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .price p {
+    font-size: 28px;
+    font-family: Poppins;
+    line-height: 48px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+  }
+  .today .Cryptocurrency {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .Cryptocurrency table {
+    width: 100%;
+  }
+  .today .Cryptocurrency table thead tr {
+    border-bottom: 1px solid grey;
+  }
+  .today .Cryptocurrency table thead tr .last {
+    display: flex;
+    justify-content: center;
+  }
+  .today .Cryptocurrency table thead tr .fer i {
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .today .Cryptocurrency table thead tr .fer span {
+    margin-left: 10px;
+  }
+  .today .Cryptocurrency table thead tr th {
+    padding: 10px;
+    background-color: rgb(27, 0, 78);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+  }
+  .today .Cryptocurrency tbody {
+    width: 95%;
+  }
+  .today .Cryptocurrency tbody tr {
+    border-bottom: 1px solid grey;
+  }
+  .today .Cryptocurrency tbody tr .nu {
+    display: none;
+  }
+  .today .Cryptocurrency tbody tr .yu {
+    font-size: 13px;
+    color: rgb(26, 255, 124);
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .tu {
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+  }
+  .today .Cryptocurrency tbody tr .tu span {
+    margin-left: 35%;
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .mu {
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    position: absolute;
+  }
+  .today .Cryptocurrency tbody tr .mu span {
+    margin-left: 35%;
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .bitcoin {
+    width: 17%;
+  }
+  .today .Cryptocurrency tbody tr .bitcoin .BTC {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    font-family: Open Sans;
+    color: rgb(130, 130, 130);
+  }
+  .today .Cryptocurrency tbody tr .bitcoin span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 5px;
+  }
+  .today .Cryptocurrency tbody tr td {
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .Cryptocurrency tbody tr td .key {
+    display: none;
+  }
+  .today .Cryptocurrency tbody tr td .sekil {
+    width: 80%;
+  }
+}
+@media (width < 852px) {
+  .today {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .price {
+    width: 85%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .price p {
+    font-size: 28px;
+    font-family: Poppins;
+    line-height: 48px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+  }
+  .today .Cryptocurrency {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .Cryptocurrency table {
+    width: 100%;
+  }
+  .today .Cryptocurrency table thead tr {
+    border-bottom: 1px solid grey;
+  }
+  .today .Cryptocurrency table thead tr .last {
+    display: flex;
+    justify-content: center;
+  }
+  .today .Cryptocurrency table thead tr .fer {
+    display: none;
+  }
+  .today .Cryptocurrency table thead tr .fer i {
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .today .Cryptocurrency table thead tr .fer span {
+    margin-left: 10px;
+  }
+  .today .Cryptocurrency table thead tr th {
+    padding: 10px;
+    background-color: rgb(27, 0, 78);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+  }
+  .today .Cryptocurrency tbody {
+    width: 95%;
+  }
+  .today .Cryptocurrency tbody tr {
+    border-bottom: 1px solid grey;
+  }
+  .today .Cryptocurrency tbody tr .nu {
+    display: none;
+  }
+  .today .Cryptocurrency tbody tr .yu {
+    width: 9%;
+    font-size: 9px;
+    color: rgb(26, 255, 124);
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .tu {
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+  }
+  .today .Cryptocurrency tbody tr .tu span {
+    margin-left: 35%;
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .mu {
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    position: absolute;
+  }
+  .today .Cryptocurrency tbody tr .mu span {
+    margin-left: 35%;
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .bitcoin {
+    width: 17%;
+  }
+  .today .Cryptocurrency tbody tr .bitcoin .BTC {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    font-family: Open Sans;
+    color: rgb(130, 130, 130);
+  }
+  .today .Cryptocurrency tbody tr .bitcoin span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 5px;
+  }
+  .today .Cryptocurrency tbody tr td {
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .Cryptocurrency tbody tr td .key {
+    display: none;
+  }
+}
+@media (width < 768px) {
+  .today {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .price {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .price p {
+    font-size: 28px;
+    font-family: Poppins;
+    line-height: 48px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+  }
+  .today .Cryptocurrency {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .Cryptocurrency table thead .last {
+    display: none;
+  }
+  .today .Cryptocurrency table thead .hi {
+    display: none;
+  }
+  .today .Cryptocurrency table thead tr {
+    border-bottom: 1px solid grey;
+  }
+  .today .Cryptocurrency table thead tr .valu {
+    width: 100%;
+    text-align: end;
+  }
+  .today .Cryptocurrency table thead tr .last {
+    display: flex;
+    justify-content: center;
+  }
+  .today .Cryptocurrency table thead tr .fer {
+    display: none;
+  }
+  .today .Cryptocurrency table thead tr .fer i {
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .today .Cryptocurrency table thead tr .fer span {
+    margin-left: 10px;
+  }
+  .today .Cryptocurrency table thead tr th {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: rgb(27, 0, 78);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+  }
+  .today .Cryptocurrency tbody {
+    width: 90%;
+  }
+  .today .Cryptocurrency tbody tr {
+    border-bottom: 1px solid grey;
+  }
+  .today .Cryptocurrency tbody tr .nu {
+    display: none;
+  }
+  .today .Cryptocurrency tbody tr .yu {
+    width: 9%;
+    display: none;
+    font-size: 9px;
+    color: rgb(26, 255, 124);
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .tu {
+    display: none;
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+  }
+  .today .Cryptocurrency tbody tr .tu span {
+    margin-left: 35%;
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .mu {
+    margin-left: 50%;
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    position: absolute;
+  }
+  .today .Cryptocurrency tbody tr .mu span {
+    margin-left: 35%;
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .bitcoin {
+    width: 20%;
+  }
+  .today .Cryptocurrency tbody tr .bitcoin .BTC {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    font-family: Open Sans;
+    color: rgb(130, 130, 130);
+  }
+  .today .Cryptocurrency tbody tr .bitcoin span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 5px;
+  }
+  .today .Cryptocurrency tbody tr td {
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .Cryptocurrency tbody tr td .key {
+    display: none;
+  }
+  .today .Cryptocurrency tbody tr td .sekil {
+    display: none;
+  }
+}
+.company {
+  background-image: url(/image/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  border: solid 0.1px;
+}
+.company .hygi {
+  width: 85%;
+  margin: auto;
+  height: 380px;
+  border-bottom: solid rgb(188, 188, 188) 1px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.company .hygi .leyn .neyk {
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+.company .hygi .leyn p {
+  margin-top: 35px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23.88px;
+}
+.company .cyptous {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.company .cyptous span {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 16.94px;
+  color: rgb(188, 188, 188);
+}
+.company .foto {
+  width: 13%;
+}
+.company .foto img {
+  margin-left: 5px;
+}
+
+@media (width < 768px) {
+  .company {
+    background-image: url(/image/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 2300px;
+    border: solid 1px;
+  }
+  .company .hygi {
+    width: 100%;
+    margin: auto;
+    height: 2000px;
+    border-bottom: solid rgb(188, 188, 188) 1px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .company .hygi .leyn {
+    margin-left: 10px;
+  }
+  .company .hygi .leyn .neyk {
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+  }
+  .company .hygi .leyn p {
+    margin-top: 35px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23.88px;
+  }
+  .company .cyptous {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    padding-top: 50px;
+  }
+  .company .cyptous span {
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: rgb(188, 188, 188);
+    margin: auto;
+    margin-top: 15px;
+  }
+  .company .foto {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+  }
+  .company .foto img {
+    margin-left: 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
